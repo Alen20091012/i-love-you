@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #000; /* Темный фон */
+    color: white;
+}
+
+.container {
+    max-width: 600px;  /* Максимальная ширина контейнера */
+    margin: 0 auto;     /* Центрирование контейнера */
+    padding: 20px;
+}
+
+
+.image-container {
+    margin-bottom: 20px; /* Пример: добавить отступ снизу */
+    text-align: center;   /* Добавляем выравнивание текста по центру */
+    /* Другие стили, если нужно */
+}
+
+/* Content */
+.content {
+    text-align: center;
+}
+
+.reasons-bar {
+    background: linear-gradient(to right, #f00, #90f);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px; /* Скругленные углы */
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+/* Player */
+.player {
+    padding: 10px;
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: #444;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    width: 50%; /* Примерное значение */
+    background-color: white;
+    border-radius: 5px;
+}
+
+.thumb {
+    position: absolute;
+    top: -5px;
+    left: 50%; /* Соответствует .progress */
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
